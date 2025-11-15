@@ -190,3 +190,15 @@ body {
 .social-icons .social-icon:hover {
     color: var(--primary-color);
 }
+
+/* --- Demo Button --- */
+.demo-btn {
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.demo-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
