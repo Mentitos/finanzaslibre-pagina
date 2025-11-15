@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Scroll reveal animation
     const revealElements = document.querySelectorAll('.scroll-reveal');
 
     const revealObserver = new IntersectionObserver((entries, observer) => {
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
         revealObserver.observe(elem);
     });
 
-    // Optional: Navbar background change on scroll
     const navbar = document.querySelector('.navbar');
     if (navbar) {
         window.addEventListener('scroll', () => {
@@ -28,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Parallax effect for hero section
     const heroContent = document.querySelector('.hero-content');
     if (heroContent) {
         window.addEventListener('scroll', () => {
