@@ -217,7 +217,6 @@ body {
     color: var(--primary-color);
 }
 
-/* --- Demo Button --- */
 .demo-btn {
     border-radius: 50px;
     font-weight: 600;
