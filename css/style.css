@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #28a745;
     --primary-hover: #218838;
@@ -22,11 +26,11 @@ body {
 
 .navbar-brand {
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
-.navbar-brand i {
-    margin-right: 8px;
-}
+
 
 @keyframes gradient-animation {
     0% { background-position: 0% 50%; }
