@@ -34,4 +34,32 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    const languageSwitcher = document.querySelectorAll('[data-lang]');
+    const elementsToTranslate = document.querySelectorAll('[data-key]');
+
+    const setLanguage = (lang) => {
+        elementsToTranslate.forEach(element => {
+            const key = element.getAttribute('data-key');
+            if (translations[lang] && translations[lang][key]) {
+                element.innerHTML = translations[lang][key];
+            }
+        });
+        document.documentElement.lang = lang;
+    };
+
+    const getBrowserLanguage = () => {
+        const lang = navigator.language.split('-')[0];
+        return ['en', 'es'].includes(lang) ? lang : 'en';
+    };
+
+    languageSwitcher.forEach(switcher => {
+        switcher.addEventListener('click', (e) => {
+            e.preventDefault();
+            const lang = switcher.getAttribute('data-lang');
+            setLanguage(lang);
+        });
+    });
+
+    setLanguage(getBrowserLanguage());
+
 });

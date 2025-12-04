@@ -30,6 +30,28 @@ body {
     align-items: center;
 }
 
+.dropdown-toggle {
+    background: transparent !important;
+    border: none !important;
+    font-size: 1.5rem;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: var(--dark-color);
+}
+
+.dropdown-item {
+    color: var(--white-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-color);
+}
+
 
 
 @keyframes gradient-animation {
