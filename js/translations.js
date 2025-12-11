@@ -33,6 +33,16 @@ const translations = {
         "demo-modal-body-3": "Para la experiencia completa y para guardar tus datos de forma segura, se recomienda descargar la aplicación de desde 'descargar ahora'.",
         "demo-modal-cancel": "Cancelar",
         "demo-modal-confirm": "Entendido, ¡ir a la Demo!",
+        "inspiration-title": "Inspirado en el Software Libre",
+        "inspiration-text": "Finanzas Libre nace de la filosofía del software libre, inspirado en el legado de pioneros como Linus Torvalds, creador de Linux. Creemos en la libertad de usar, modificar y distribuir software, y es por eso que Finanzas Libre es y será siempre de código abierto y gratuito para todos.",
+        "tech-title": "Datos Técnicos",
+        "tech-1": "<strong>Tecnología Principal:</strong> Flutter",
+        "tech-2": "<strong>Lenguaje de Programación:</strong> Dart",
+        "tech-3": "<strong>Plataforma Principal:</strong> Android (Estable)",
+        "tech-4": "<strong>Plataformas Inestables:</strong> Linux, Windows, Navegador, iPhone",
+        "tech-5": "<strong>Licencia:</strong> GPL-3.0",
+        "tech-6": "<strong>Base de Datos:</strong> Hive (NoSQL)",
+        "tech-7": "<strong>Próximamente:</strong> Versión lite en Kotlin",
         "brand-name": "Finanzas Libre"
     },
     en: {
@@ -69,6 +79,16 @@ const translations = {
         "demo-modal-body-3": "For the full experience and to save your data securely, it is recommended to download the application from 'download now'.",
         "demo-modal-cancel": "Cancel",
         "demo-modal-confirm": "Understood, go to the Demo!",
+        "inspiration-title": "Inspired by Free Software",
+        "inspiration-text": "Finanzas Libre was born from the philosophy of free software, inspired by the legacy of pioneers like Linus Torvalds, creator of Linux. We believe in the freedom to use, modify, and distribute software, which is why Finanzas Libre is and always will be open source and free for everyone.",
+        "tech-title": "Technical Specs",
+        "tech-1": "<strong>Main Technology:</strong> Flutter",
+        "tech-2": "<strong>Programming Language:</strong> Dart",
+        "tech-3": "<strong>Main Platform:</strong> Android (Stable)",
+        "tech-4": "<strong>Unstable Platforms:</strong> Linux, Windows, Browser, iPhone",
+        "tech-5": "<strong>License:</strong> GPL-3.0",
+        "tech-6": "<strong>Database:</strong> Hive (NoSQL)",
+        "tech-7": "<strong>Coming Soon:</strong> Lite version in Kotlin",
         "brand-name": "Finanzas Libre"
     }
 };
